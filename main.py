@@ -294,14 +294,14 @@ class FormFiller :
         sleep(1)
 
 counter = 79
-downloader = FormFiller()
+filler = FormFiller()
 print("Welcome")
 for i in range(140):
     print("New Form Started")
-    downloader.firstPageFiller()
+    filler.firstPageFiller()
     for i in range(6):
-        downloader.listClicker(i)
-    downloader.finalSubmit()
+        filler.listClicker(i)
+    filler.finalSubmit()
     counter = counter + 1
     print("Total Form Submitted: ", counter)
 
