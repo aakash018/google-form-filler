@@ -293,7 +293,7 @@ class FormFiller :
         submitter.click()
         sleep(1)
 
-counter = 79
+counter = 0
 filler = FormFiller()
 print("Welcome")
 for i in range(140):
